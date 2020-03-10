@@ -5,16 +5,13 @@ import java.io.IOException;
 import ie.cct.objectorientedconstructs.FeedFactoryInterface;
 import ie.cct.objectorientedconstructs.FeedInterface;
 
-// Modify this to match your package
-import ie.cct.objectorientedconstructs.s12345s1234.FeedFactory;
-
 public class FeedReader {
 	
 	public static void main(String[] args) throws IOException {
 	
 		// This will produce an error until you create your own class
 		// FeedFactory and fix the import at line 7 
-		FeedFactoryInterface factory = new FeedFactory();
+		FeedFactoryInterface factory = new ie.cct.objectorientedconstructs.s2018370s2018092.FeedFactory();
     
 		
 		String file = "test.rss";
